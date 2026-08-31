@@ -1,13 +1,13 @@
 cask "quodex" do
-  version "0.2.1"
+  version "0.2.0"
 
   on_arm do
-    sha256 "d08476f9c1cd4c6773b97633cf909b15158437e223aa62106c0495a671a24815"
+    sha256 "e4c5ced89a50e6903f04a8f5a3dcca7f03b89b01133ee43b1273980bab6f28fe"
 
     url "https://github.com/hxbib/Quodex/releases/download/v#{version}/Quodex-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "9bc456a2f135b68d2d9794e0b9dea71b77e59e4b1e0719ba3922e8bf12406ee7"
+    sha256 "fc2bc1c4a029a3f0c9ad80522fd2cfd7beea45860bb1f26dbdf8ef00cb9a3654"
 
     url "https://github.com/hxbib/Quodex/releases/download/v#{version}/Quodex-#{version}-x86_64.dmg"
   end
